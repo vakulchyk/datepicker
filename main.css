@@ -1,0 +1,314 @@
+@font-face {
+ font-family: 'icomoon';
+ src: url('../fonts/icomoon.eot');
+ src: url('fonts/icomoon.eot') format('embedded-opentype'),
+  url('fonts/icomoon.ttf?m23m4l') format('truetype'),
+  url('fonts/icomoon.woff?m23m4l') format('woff'),
+  url('fonts/icomoon.svg?m23m4l#icomoon') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+
+.mls {
+ font-family: 'icomoon' !important;
+ speak: none;
+ font-style: normal;
+ font-weight: normal;
+ font-variant: normal;
+ text-transform: none;
+ line-height: 1;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icn_add:before {
+ content: "\e900";
+}
+.icon-icn_airplane:before {
+ content: "\e901";
+}
+.icon-icn_arrow_left_navigation:before {
+ content: "\e902";
+}
+.icon-icn_arrow_responsetime:before {
+ content: "\e903";
+}
+.icon-icn_arrow_right_navigation:before {
+ content: "\e904";
+}
+.icon-icn_calendar:before {
+ content: "\e905";
+}
+.icon-icn_calendar2:before {
+ content: "\e906";
+}
+.icon-icn_calendar3:before {
+ content: "\e907";
+}
+.icon-icn_chat:before {
+ content: "\e908";
+}
+.icon-icn_checkbox_mark:before {
+ content: "\e909";
+}
+.icon-icn_clock:before {
+ content: "\e90a";
+}
+.icon-icn_clock2:before {
+ content: "\e90b";
+}
+.icon-icn_close:before {
+ content: "\e90c";
+}
+.icon-icn_dialogconfirm:before {
+ content: "\e90d";
+}
+.icon-icn_dropdown_arrow:before {
+ content: "\e90e";
+}
+.icon-icn_dropdown_arrow_left:before {
+ content: "\e90f";
+}
+.icon-icn_dropdown_arrow_right:before {
+ content: "\e910";
+}
+.icon-icn_dropdown_arrow_up:before {
+ content: "\e911";
+}
+.icon-icn_gender_female:before {
+ content: "\e912";
+}
+.icon-icn_gender_male:before {
+ content: "\e913";
+}
+.icon-icn_grid:before {
+ content: "\e914";
+}
+.icon-icn_hat:before {
+ content: "\e915";
+}
+.icon-icn_heart:before {
+ content: "\e916";
+}
+.icon-icn_house:before {
+ content: "\e917";
+}
+.icon-icn_instagram:before {
+ content: "\e918";
+}
+.icon-icn_lamp:before {
+ content: "\e919";
+}
+.icon-icn_list:before {
+ content: "\e91a";
+}
+.icon-icn_lock:before {
+ content: "\e91b";
+}
+.icon-icn_manandthedog:before {
+ content: "\e91c";
+}
+.icon-icn_medal:before {
+ content: "\e91d";
+}
+.icon-icn_next:before {
+ content: "\e91e";
+}
+.icon-icn_paw:before {
+ content: "\e91f";
+}
+.icon-icn_pet_threemore:before {
+ content: "\e920";
+}
+.icon-icn_pets_bird:before {
+ content: "\e921";
+}
+.icon-icn_pets_cat:before {
+ content: "\e922";
+}
+.icon-icn_pets_dog:before {
+ content: "\e923";
+}
+.icon-icn_pets_bird2:before {
+ content: "\e924";
+}
+.icon-icn_pets_farm:before {
+ content: "\e925";
+}
+.icon-icn_pets_ferret:before {
+ content: "\e926";
+}
+.icon-icn_pets_fish:before {
+ content: "\e927";
+}
+.icon-icn_pets_horse:before {
+ content: "\e928";
+}
+.icon-icn_pets_rabbit:before {
+ content: "\e929";
+}
+.icon-icn_pets_reptile:before {
+ content: "\e92a";
+}
+.icon-icn_pets_rodent:before {
+ content: "\e92b";
+}
+.icon-icn_photocam:before {
+ content: "\e92c";
+}
+.icon-icn_picto_cathouse:before {
+ content: "\e92d";
+}
+.icon-icn_picto_checkmark:before {
+ content: "\e92e";
+}
+.icon-icn_picto_cross:before {
+ content: "\e92f";
+}
+.icon-icn_picto_dogcat:before {
+ content: "\e930";
+}
+.icon-icn_question_small:before {
+ content: "\e931";
+}
+.icon-icn_question_small_hover:before {
+ content: "\e932";
+}
+.icon-icn_ruler:before {
+ content: "\e933";
+}
+.icon-icn_search:before {
+ content: "\e934";
+}
+.icon-icn_soc_facebook:before {
+ content: "\e935";
+}
+
+.icon-icn_soc_google:before {
+ content: "\e936";
+}
+.icon-icn_soc_pinterest:before {
+ content: "\e937";
+}
+.icon-icn_soc_twitter:before {
+ content: "\e938";
+}
+.icon-icn_star:before {
+ content: "\e939";
+}
+.icon-icn_sun:before {
+ content: "\e93a";
+}
+.icon-icn_view:before {
+ content: "\e93b";
+}
+.icon-icn_webcam:before {
+ content: "\e93c";
+}
+.icon-icn_yard:before {
+ content: "\e93d";
+}
+.icon-logo_goholiday:before {
+ content: "\e93e";
+}
+.icon-logo_gonanny:before {
+ content: "\e93f";
+}
+.icon-logo_goschool:before {
+ content: "\e940";
+}
+.icon-logo_gowalk:before {
+ content: "\e941";
+}
+.icon-logo_happybox:before {
+ content: "\e942";
+}
+.icon-logo_holidog:before {
+ content: "\e943";
+}
+.icon-logo_holidog_short:before {
+ content: "\e944";
+}
+.icon-logo_holidogtimes:before {
+ content: "\e945";
+}
+.icon-logo_tindog:before {
+ content: "\e946";
+}
+.icon-icn_delete:before {
+ content: "\e947";
+}
+.icon-icn_sadsmile:before {
+ content: "\e948";
+}
+.icon-icn_happysmile:before {
+ content: "\e949";
+}
+.icon-icn_map:before {
+ content: "\e94a";
+}
+.icon-icn_warning:before {
+ content: "\e94b";
+}
+.icon-icn_mobile:before {
+ content: "\e94c";
+}
+.icon-icn_email:before {
+ content: "\e94d";
+}
+
+
+input[type=date] {
+	height: 46px;
+	width: 196px;
+	font-size: 16pt;
+	/*text-transform: uppercase;*/
+	background-color: #f1f5f8;
+	border: 2px solid #d7d6d5;
+    border-radius: 8px;
+	color: #555555;
+	padding: 0 15px;
+}
+
+input::-webkit-inner-spin-button { display: none;}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+  color: #555555;
+  opacity: 1;
+  position: relative;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator:after {
+    content: "\e906";
+    font-family: 'icomoon';
+    font-size: 26px;
+    background: #f1f5f8;
+    width: 44px; height: 24px;
+    text-align: right;
+    left: -10px; top: -2px;
+    position: absolute;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator:before{
+    content: "Select date";
+    font-family: 'icomoon';
+    font-size: 16pt;
+    width: 160px; height: 35px;
+    left: -169px; top: -2px;
+    background: #f1f5f8;
+    position: absolute;
+    text-align: left;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator:before hidden{
+    background: green;
+}
+
+input[type=date]::-webkit-clear-button { /* Removes blue border */
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=date].addedDate::-webkit-calendar-picker-indicator:before{
+    display:none;
+}
