@@ -5,6 +5,8 @@
 //     })
 // }
 
+
+
 $(document).ready(function(){
     $("input[type=date]").click(function(){
         $("input[type=date]").addClass("addedDate");
@@ -16,3 +18,4 @@ $(document).ready(function(){
         $(".date_picker_label").remove();
     })
 })
+

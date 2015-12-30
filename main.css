@@ -322,7 +322,7 @@ input[type=date] {
   position: absolute;
 }
 .date_picker_label {
-    height: 50px;
+    height: 40px;
     width: 140px;
     top: 2px;
     left:2px;
@@ -333,8 +333,10 @@ input[type=date] {
     border-bottom-left-radius: 8px;
     border-top-left-radius: 8px;
     color: #555555;
+    background: #f1f5f8;
     padding: 0 15px;
     font-family: 'icomoon';
     /*vertical-align: middle;*/
     padding-top: 10px;
+    opacity: 1;
 }
