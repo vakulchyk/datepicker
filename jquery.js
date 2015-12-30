@@ -5,9 +5,14 @@
 //     })
 // }
 
-// $(document).ready(function(){
-//     $("input[type=date]").click(function(){
-//         $("input[type=date]").addClass("addedDate");
-//     })   
-// })
+$(document).ready(function(){
+    $("input[type=date]").click(function(){
+        $("input[type=date]").addClass("addedDate");
+    })   
+})
 
+$(document).ready(function(){
+    $("input[type=date]").click(function(){
+        $(".date_picker_label").remove();
+    })
+})

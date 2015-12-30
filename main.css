@@ -291,10 +291,9 @@ input[type=date]::-webkit-calendar-picker-indicator:after {
 
 input[type=date]::-webkit-calendar-picker-indicator:before{
     content: " ";
-    font-family: 'icomoon';
     font-size: 16pt;
     width: 160px; height: 35px;
-    left: -169px; top: -2px;
+    left: -191px; top: -2px;
     background: #f1f5f8;
     position: absolute;
     text-align: left;
@@ -328,16 +327,14 @@ input[type=date] {
     top: 2px;
     left:2px;
     position: absolute;
-    /* left: -90px; */
     pointer-events:none; 
     font-size: 16pt;
-    /*text-transform: uppercase;*/
-    /*background-color: #f1f5f8;*/
-    /*background-color: red;*/
-    /*border: 2px solid #d7d6d5;*/
+    font-family: 'icomoon';
     border-bottom-left-radius: 8px;
     border-top-left-radius: 8px;
     color: #555555;
     padding: 0 15px;
     font-family: 'icomoon';
+    /*vertical-align: middle;*/
+    padding-top: 10px;
 }
