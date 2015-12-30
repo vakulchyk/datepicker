@@ -268,6 +268,8 @@ input[type=date] {
     border-radius: 8px;
 	color: #555555;
 	padding: 0 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
 
 input::-webkit-inner-spin-button { display: none;}
@@ -334,7 +336,6 @@ input[type=date] {
     border-top-left-radius: 8px;
     color: #555555;
     background: #f1f5f8;
-    background: red;
     padding: 0 15px;
     font-family: 'icomoon';
     /*vertical-align: middle;*/
