@@ -312,3 +312,23 @@ input[type=date]::-webkit-clear-button { /* Removes blue border */
 input[type=date].addedDate::-webkit-calendar-picker-indicator:before{
     display:none;
 }
+
+.datepick {
+  position: relative;
+}
+
+input[type=date] {
+  width: 200px;
+  height: 50px;
+  position: absolute;
+}
+.date_picker_label {
+  position: absolute;
+  background: red;
+  /* left: -90px; */
+  width: 170px;
+  height: 30px;
+  left: 10px;
+  top: 10px;
+  pointer-events:none;
+}
