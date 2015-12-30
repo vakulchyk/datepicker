@@ -323,12 +323,19 @@ input[type=date] {
   position: absolute;
 }
 .date_picker_label {
-  position: absolute;
-  background: red;
-  /* left: -90px; */
-  width: 170px;
-  height: 30px;
-  left: 10px;
-  top: 10px;
-  pointer-events:none;
+    height: 50px;
+    width: 140px;
+    top: 2px;
+    left:2px;
+    position: absolute;
+    background: blue;
+    /* left: -90px; */
+    pointer-events:none; 
+    font-size: 16pt;
+    /*text-transform: uppercase;*/
+    background-color: #f1f5f8;
+    /*border: 2px solid #d7d6d5;*/
+    border-radius: 8px;
+    color: #555555;
+    padding: 0 15px;
 }
