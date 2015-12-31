@@ -259,17 +259,16 @@
 
 
 input[type=date] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
 	height: 46px;
 	width: 196px;
 	font-size: 16pt;
-	/*text-transform: uppercase;*/
 	background-color: #f1f5f8;
 	border: 2px solid #d7d6d5;
     border-radius: 8px;
 	color: #555555;
 	padding: 0 15px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
 }
 
 input::-webkit-inner-spin-button { display: none;}
@@ -281,8 +280,9 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 
 input[type=date]::-webkit-calendar-picker-indicator:after {
-    content: "\e906";
-    font-family: 'icomoon';
+    /*content: "\e906";
+    font-family: 'icomoon';*/
+    content: " ";
     font-size: 26px;
     background: #f1f5f8;
     width: 44px; height: 24px;
@@ -293,7 +293,7 @@ input[type=date]::-webkit-calendar-picker-indicator:after {
 
 input[type=date]::-webkit-calendar-picker-indicator:before{
     content: " ";
-    font-size: 16pt;
+    font-size: 26pt;
     width: 160px; height: 35px;
     left: -191px; top: -2px;
     background: #f1f5f8;
@@ -325,19 +325,31 @@ input[type=date] {
 }
 .date_picker_label {
     height: 40px;
-    width: 184px;
+    width: 225px;
     top: 2px;
     left:2px;
     position: absolute;
     pointer-events:none; 
     font-size: 16pt;
     font-family: 'icomoon';
-    border-bottom-left-radius: 8px;
-    border-top-left-radius: 8px;
+    border-radius: 8px;
     color: #555555;
     background: #f1f5f8;
-    padding: 0 15px;
-    font-family: 'icomoon';
+    /*background: red;*/
+    /*vertical-align: center;*/
     padding-top: 10px;
+    padding-left: 15px;
     opacity: 1;
+}
+
+
+.icon-icn_calendar2 {
+    position: absolute;
+    font-size: 26pt;
+    right: 0px;
+    
+}
+
+.invisible{
+    visibility: hidden;
 }

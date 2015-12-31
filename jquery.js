@@ -1,24 +1,14 @@
 
-// if (datefield.type!="date"){ //if browser doesn't support input type="date", initialize date picker widget:
-//     jQuery(function($){ //on document.ready
-//         $('#datepic').datepicker();
-//     })
-// }
 
 $(document).ready(function(){
-    console.log($("input").val());
-    $("input[type=date]").change(function(){
-        $("input[type=date]").addClass("addedDate");
+    // $("input[type=date]").append('<label class="date_picker_label">Select date <span class="mls icon-icn_calendar2"></span></label>');
+    $("input[type=date]").click(function(){
+        $(this).addClass("addedDate");
     })
     $("input[type=date]").click(function(){
-        $(".date_picker_label").remove();
+        $(this).next($(".date_picker_label")).css("visibility", "hidden");
+        $(this).next($(".date_picker_label")).children().css( "visibility", "visible" );
     })
-    // console.log($('input').val());
-    // $("input").change(function(){
-    //     if ($("input").val() == ""){
-            
-    //     };
-    // });
 })
 
 
