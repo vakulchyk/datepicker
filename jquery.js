@@ -5,17 +5,21 @@
 //     })
 // }
 
-
-
 $(document).ready(function(){
-    $("input[type=date]").click(function(){
+    console.log($("input").val());
+    $("input[type=date]").change(function(){
         $("input[type=date]").addClass("addedDate");
-    })   
-})
-
-$(document).ready(function(){
+    })
     $("input[type=date]").click(function(){
         $(".date_picker_label").remove();
     })
+    // console.log($('input').val());
+    // $("input").change(function(){
+    //     if ($("input").val() == ""){
+            
+    //     };
+    // });
 })
+
+
 
