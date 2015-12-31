@@ -292,7 +292,7 @@ input[type=date]::-webkit-calendar-picker-indicator:after {
 }
 
 input[type=date]::-webkit-calendar-picker-indicator:before{
-    content: "Select date";
+    content: " ";
     font-size: 16pt;
     width: 160px; height: 35px;
     left: -191px; top: -2px;
@@ -323,7 +323,7 @@ input[type=date] {
   height: 50px;
   position: absolute;
 }
-/*.date_picker_label {
+.date_picker_label {
     height: 40px;
     width: 184px;
     top: 2px;
@@ -340,4 +340,4 @@ input[type=date] {
     font-family: 'icomoon';
     padding-top: 10px;
     opacity: 1;
-}*/
+}
